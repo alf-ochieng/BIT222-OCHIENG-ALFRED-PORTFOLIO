@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfred Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pictures/pp2.jpg" alt="LOGO" width="100px" height="100px">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm <span>Alfred</span><br>from Kenya</h1>
+                <p>Web Designer</p>
+                <p>Web Development</p>
+                <p>Web Scripting</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/gla3.jpg" alt="Professional Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Am Alfred, a dedicated and ambitious IT student with a passion for technology and a drive for excellence. With a keen interest in software development, UI/UX, and emerging technologies, I am committed to advancing my skills and knowledge in the field of information technology.</p>
+                </div>
+            </div>
+            <table>
+                <caption>Services Offered</caption>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development</td>
+                        <td>Craft dynamic and responsive websites</td>
+                    </tr>
+                    <tr>
+                        <td>Educational Workshops</td>
+                        <td>Conduct workshops on web development</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h1>Web Developer</h1>
+                    <p>As a web developer, I craft dynamic and responsive websites that seamlessly blend functionality with aesthetics. My expertise lies in both front-end and back-end development, ensuring a smooth user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h1>Educational Workshops and Training</h1>
+                    <p>I can conduct workshops on web development and app design. Whether for beginners or advanced learners, I'll share knowledge and practical insights through training sessions.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h1>User Interface Developer</h1>
+                    <p>My passion lies in enhancing user interfaces. As a UI developer, I meticulously craft visually appealing designs that prioritize user engagement.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <ul class="project-categories">
+                <li>
+                    <h2>Web Development</h2>
+                    <ul class="projects">
+                        <li>
+                            <h3>Project 1</h3>
+                            <p>Description:This project involves developing a website for a client using HTML, CSS, and JavaScript. The website is designed to be dynamic and responsive, providing users with an engaging experience across various devices. It includes features such as interactive elements, animations, and smooth transitions.
+                                Technologies used: HTML, CSS, JavaScript</p>
+                            <a href="#">Detailed View</a>
+                        </li>
+                        <li>
+                            <h2>Web development</h2>
+                            <h3>Project 2</h3>
+                                Description: This project is focused on building a web application using PHP, MySQL, and the Laravel framework. The application provides users with advanced functionality, such as user authentication, database management, and data processing. It follows modern web development standards and best practices to ensure scalability and security.
+                                Technologies used: PHP, MySQL, Laravel</p>
+                            <p>Technologies used: PHP, MySQL, Laravel</p>
+                            <a href="#">Detailed View</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2>Mobile App Development</h2>
+                    <ul class="projects">
+                        <li>
+                            <h3>Project 3</h3>
+                            <p>Description:Involves the development of a mobile app using React Native and Firebase. The app is designed to run on both iOS and Android platforms, offering users a seamless experience. It includes features such as real-time data synchronization, push notifications, and user authentication. The use of React Native allows for efficient code sharing and rapid development.
+                                Technologies used: React Native, Firebase</p>
+                            <p>Technologies used: React Native, Firebase</p>
+                            <a href="#">Detailed View</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h1 class="headings">Get in Touch</h1>
+            <p>If you have any questions, please feel free to drop me a line. I'll get back to you as soon as I can. That's a promise!</p>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>Email: <a href="mailto:ochialfred2001@gmail.com">ochialfred2001@gmail.com</a></p>
+            <p>Phone: <a href="tel:+0758060879"></a>0758060879</p>
+            <p>Location: Siaya, Kenya</p>
+                <div class="social-media-links">
+                    <a href="https://www.facebook.com/Alfy Chelsea" target="_blank">
+                        <img src="pictures/bxl-facebook.svg" alt="Facebook" width="30" height="30">
+                    </a>
+                    <a href="https://www.twitter.com/@ALFREDBILLY254" target="_blank">
+                        <img src="pictures/bxl-twitter (1).svg" alt="Twitter" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com/alfychelsea" target="_blank">
+                        <img src="pictures/bxl-instagram (1).svg" alt="Instagram" width="30" height="30">
+                    </a>
+                </div>
+                <div id="linkContainer" class="ochialfred2001@gmail.com">
+                    <a href="https://www.alfy.co.ke">Visit My Website</a>
+                </div>
+            </footer>
+        </div>
+        <div id="linkContainer" class="www.alfredochieng23.co.ke">
+
+        </div>
+    </footer>
